@@ -1,0 +1,332 @@
+**********************************************************************************************************************
+                Package Execution Report:
+
+      Package Name : Run_Phuc.pkg
+        Start Time : 2018-08-29 18:23:07
+     Complete Time : 2018-08-30 02:05:52
+
+----------------------------------------------------------------------------------------------------------------------
+ Test Case Package : Run_Phuc.pkg
+             State : COMPLETE
+            Result : FAIL
+             Start : 2018-08-29 18:23:07
+          Complete : 2018-08-30 02:05:52
+
+            Passed : 46  ( 62  % )
+            Failed : 28  ( 37  % )
+           Not Run : 0  ( 0  % )
+             Total : 74
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1. UC30_Regression_Beta_TestBed1_PuCOMPLETE      FAIL                          2018-08-29 18:23:07 2018-08-30 02:05:52 
+
+            Passed : 46  ( 62  % )
+            Failed : 28  ( 37  % )
+           Not Run : 0  ( 0  % )
+             Total : 74
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1. Beta_Regression_CI_Suite_TestBCOMPLETE      FAIL                          2018-08-29 18:23:07 2018-08-30 02:05:52 
+
+            Passed : 46  ( 62  % )
+            Failed : 28  ( 37  % )
+           Not Run : 0  ( 0  % )
+             Total : 74
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.1. Beta_UCAPPSSE_551_552.pkg   COMPLETE      FAIL                          2018-08-29 18:23:07 2018-08-30 02:05:52 
+
+            Passed : 3  ( 42  % )
+            Failed : 4  ( 57  % )
+           Not Run : 0  ( 0  % )
+             Total : 7
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.1.1. UCAPPSSE_551_552_TC1(1)   COMPLETE      PASS      2018-08-29 18:23:07 2018-08-29 18:23:07 2018-08-29 18:29:43 
+1.1.1.2. UCAPPSSE_551_552_TC2(2)   COMPLETE      FAIL      2018-08-29 18:29:43 2018-08-29 18:29:43 2018-08-29 18:36:56 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ChangePresenceState;Available on 10.128.224.49 is Fail
+1.1.1.3. UCAPPSSE_551_552_TC3(3)   COMPLETE      PASS      2018-08-29 18:36:56 2018-08-29 18:36:56 2018-08-29 18:43:51 
+1.1.1.4. UCAPPSSE_551_552_TC4(4)   COMPLETE      FAIL      2018-08-29 18:43:51 2018-08-29 18:43:51 2018-08-29 18:48:50 
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+1.1.1.5. UCAPPSSE_551_552_TC5(5)   COMPLETE      PASS      2018-08-29 18:48:50 2018-08-29 18:48:50 2018-08-29 18:56:53 
+1.1.1.6. UCAPPSSE_551_552_TC6(6)   COMPLETE      FAIL      2018-08-29 18:56:54 2018-08-29 18:56:54 2018-08-29 19:03:14 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ChangePresenceState;Available on 10.128.224.49 is Fail
+1.1.1.7. UCAPPSSE_551_552_TC7(7)   COMPLETE      FAIL      2018-08-29 19:03:15 2018-08-29 19:03:14 2018-08-29 19:12:16 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_CheckContactPresenceState;OneX00910 Hanoi;Offline on 10.102.1.164 is Fail
+----------------------------------------------------------------------------------------------------------------------
+1.1.2. Beta_UCAPPSSE_584.pkg       COMPLETE      FAIL                          2018-08-29 19:12:16 2018-08-30 02:05:52 
+
+            Passed : 7  ( 87  % )
+            Failed : 1  ( 12  % )
+           Not Run : 0  ( 0  % )
+             Total : 8
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.2.1. UCAPPSSE_584_TC1(1)       COMPLETE      PASS      2018-08-29 19:12:16 2018-08-29 19:12:16 2018-08-29 19:16:21 
+1.1.2.2. UCAPPSSE_584_TC2(2)       COMPLETE      PASS      2018-08-29 19:16:21 2018-08-29 19:16:21 2018-08-29 19:20:45 
+1.1.2.3. UCAPPSSE_584_TC3(3)       COMPLETE      PASS      2018-08-29 19:20:46 2018-08-29 19:20:46 2018-08-29 19:27:42 
+1.1.2.4. UCAPPSSE_584_TC4(4)       COMPLETE      PASS      2018-08-29 19:27:42 2018-08-29 19:27:42 2018-08-29 19:30:53 
+1.1.2.5. UCAPPSSE_584_TC5(5)       COMPLETE      PASS      2018-08-29 19:30:53 2018-08-29 19:30:53 2018-08-29 19:39:11 
+1.1.2.6. UCAPPSSE_584_TC10(6)      COMPLETE      PASS      2018-08-29 19:39:11 2018-08-29 19:39:11 2018-08-29 19:44:54 
+1.1.2.7. UCAPPSSE_584_TC6(7)       COMPLETE      FAIL      2018-08-29 19:44:54 2018-08-29 19:44:54 2018-08-29 19:52:24 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_UnblockVideo on 10.102.1.164 is Fail
+Error: Test case failure
+Info : java.lang.NullPointerException
+1.1.2.8. UCAPPSSE_584_TC8(8)       COMPLETE      PASS      2018-08-29 19:52:24 2018-08-29 19:52:24 2018-08-29 19:59:07 
+----------------------------------------------------------------------------------------------------------------------
+1.1.3. Beta_UCAPPSSE_603.pkg       COMPLETE      FAIL                          2018-08-29 19:59:07 2018-08-30 02:05:52 
+
+            Passed : 3  ( 60  % )
+            Failed : 2  ( 40  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.3.1. UCAPPSSE_603_TC1(1)       COMPLETE      PASS      2018-08-29 19:59:07 2018-08-29 19:59:07 2018-08-29 20:11:50 
+1.1.3.2. UCAPPSSE_603_TC2(2)       COMPLETE      FAIL      2018-08-29 20:11:50 2018-08-29 20:11:50 2018-08-29 20:18:22 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ChangePresenceState;Automatic on 10.128.224.49 is Fail
+1.1.3.3. UCAPPSSE_603_TC3(3)       COMPLETE      FAIL      2018-08-29 20:18:22 2018-08-29 20:18:22 2018-08-29 20:25:14 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ChangePresenceState;Automatic on 10.128.224.49 is Fail
+1.1.3.4. UCAPPSSE_603_TC4(4)       COMPLETE      PASS      2018-08-29 20:25:14 2018-08-29 20:25:14 2018-08-29 20:34:28 
+1.1.3.5. UCAPPSSE_603_TC5(5)       COMPLETE      PASS      2018-08-29 20:34:28 2018-08-29 20:34:28 2018-08-29 20:42:43 
+----------------------------------------------------------------------------------------------------------------------
+1.1.4. Beta_UCAPPSSE_605.pkg       COMPLETE      PASS                          2018-08-29 20:42:43 2018-08-30 02:05:52 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.4.1. UCAPPSSE_605_TC1(1)       COMPLETE      PASS      2018-08-29 20:42:43 2018-08-29 20:42:43 2018-08-29 20:47:47 
+----------------------------------------------------------------------------------------------------------------------
+1.1.5. Beta_UCAPPSSE_624.pkg       COMPLETE      FAIL                          2018-08-29 20:47:47 2018-08-30 02:05:52 
+
+            Passed : 2  ( 50  % )
+            Failed : 2  ( 50  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.5.1. UCAPPSSE_624_TC3(1)       COMPLETE      PASS      2018-08-29 20:47:47 2018-08-29 20:47:47 2018-08-29 20:53:21 
+1.1.5.2. UCAPPSSE_624_TC4(2)       COMPLETE      FAIL      2018-08-29 20:53:22 2018-08-29 20:53:21 2018-08-29 21:00:05 
+Error: Test case failure
+Info : java.lang.Exception: JoinAACMeetmeConferenceWithCallType Fail
+1.1.5.3. UCAPPSSE_624_TC5(3)       COMPLETE      PASS      2018-08-29 21:00:05 2018-08-29 21:00:05 2018-08-29 21:05:01 
+1.1.5.4. UCAPPSSE_624_TC6(4)       COMPLETE      FAIL      2018-08-29 21:05:01 2018-08-29 21:05:01 2018-08-29 21:11:57 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_ExtendedPickupCall;0 on 10.102.1.164 is Fail
+----------------------------------------------------------------------------------------------------------------------
+1.1.6. Beta_UCAPPSSE_626.pkg       COMPLETE      FAIL                          2018-08-29 21:11:57 2018-08-30 02:05:52 
+
+            Passed : 2  ( 33  % )
+            Failed : 4  ( 66  % )
+           Not Run : 0  ( 0  % )
+             Total : 6
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.6.1. UCAPPSSE_626_TC15(1)      COMPLETE      FAIL      2018-08-29 21:11:57 2018-08-29 21:11:57 2018-08-29 21:18:21 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_BlindTransfer;1;84449900912 on 10.128.224.49 is Fail
+1.1.6.2. UCAPPSSE_626_TC16(2)      COMPLETE      FAIL      2018-08-29 21:18:21 2018-08-29 21:18:21 2018-08-29 21:25:31 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_BlindTransfer;1;13038930400 on 10.128.224.49 is Fail
+1.1.6.3. UCAPPSSE_626_TC17(3)      COMPLETE      PASS      2018-08-29 21:25:31 2018-08-29 21:25:31 2018-08-29 21:29:27 
+1.1.6.4. UCAPPSSE_626_TC18(4)      COMPLETE      FAIL      2018-08-29 21:29:27 2018-08-29 21:29:27 2018-08-29 21:35:37 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_BlindTransfer;1;84449900912 on 10.128.224.49 is Fail
+1.1.6.5. UCAPPSSE_626_TC19(5)      COMPLETE      PASS      2018-08-29 21:35:37 2018-08-29 21:35:37 2018-08-29 21:39:18 
+1.1.6.6. UCAPPSSE_626_TC20(6)      COMPLETE      FAIL      2018-08-29 21:39:19 2018-08-29 21:39:18 2018-08-29 21:45:26 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_BlindTransfer;1;84449900915 on 10.128.224.49 is Fail
+----------------------------------------------------------------------------------------------------------------------
+1.1.7. Beta_UCAPPSSE_68.pkg        COMPLETE      FAIL                          2018-08-29 21:45:26 2018-08-30 02:05:52 
+
+            Passed : 23  ( 67  % )
+            Failed : 11  ( 32  % )
+           Not Run : 0  ( 0  % )
+             Total : 34
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.7.1. UCAPPSSE_68_TC52(1)       COMPLETE      PASS      2018-08-29 21:45:26 2018-08-29 21:45:26 2018-08-29 21:49:28 
+1.1.7.2. UCAPPSSE_68_TC3(2)        COMPLETE      PASS      2018-08-29 21:49:28 2018-08-29 21:49:28 2018-08-29 21:54:58 
+1.1.7.3. UCAPPSSE_68_TC4(3)        COMPLETE      FAIL      2018-08-29 21:54:58 2018-08-29 21:54:58 2018-08-29 22:02:11 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_UnHold;1 on 10.128.224.49 is Fail
+1.1.7.4. UCAPPSSE_68_TC5(4)        COMPLETE      PASS      2018-08-29 22:02:11 2018-08-29 22:02:11 2018-08-29 22:06:39 
+1.1.7.5. UCAPPSSE_68_TC6(5)        COMPLETE      PASS      2018-08-29 22:06:39 2018-08-29 22:06:39 2018-08-29 22:10:21 
+1.1.7.6. UCAPPSSE_68_TC7(6)        COMPLETE      PASS      2018-08-29 22:10:21 2018-08-29 22:10:21 2018-08-29 22:14:34 
+1.1.7.7. UCAPPSSE_68_TC8(7)        COMPLETE      PASS      2018-08-29 22:14:34 2018-08-29 22:14:34 2018-08-29 22:19:51 
+1.1.7.8. UCAPPSSE_68_TC9(8)        COMPLETE      PASS      2018-08-29 22:19:51 2018-08-29 22:19:51 2018-08-29 22:23:45 
+1.1.7.9. UCAPPSSE_68_TC10(9)       COMPLETE      FAIL      2018-08-29 22:23:45 2018-08-29 22:23:45 2018-08-29 22:37:40 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_MuteSelf on 10.128.224.49 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.49 is Fail
+1.1.7.10. UCAPPSSE_68_TC30(10)     COMPLETE      FAIL      2018-08-29 22:37:40 2018-08-29 22:37:40 2018-08-29 22:47:56 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.49 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_68_TC30;_29-Aug-18_10-42-55_590_PM on 10.128.224.49 is Fail
+1.1.7.11. UCAPPSSE_68_TC31(11)     COMPLETE      PASS      2018-08-29 22:47:57 2018-08-29 22:47:56 2018-08-29 22:53:22 
+1.1.7.12. UCAPPSSE_68_TC32(12)     COMPLETE      PASS      2018-08-29 22:53:22 2018-08-29 22:53:22 2018-08-29 23:00:56 
+1.1.7.13. UCAPPSSE_68_TC14(13)     COMPLETE      FAIL      2018-08-29 23:00:56 2018-08-29 23:00:56 2018-08-29 23:09:22 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.190 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.190 is Fail
+1.1.7.14. UCAPPSSE_68_TC39(14)     COMPLETE      PASS      2018-08-29 23:09:22 2018-08-29 23:09:22 2018-08-29 23:14:34 
+1.1.7.15. UCAPPSSE_68_TC40(15)     COMPLETE      PASS      2018-08-29 23:14:34 2018-08-29 23:14:34 2018-08-29 23:20:41 
+1.1.7.16. UCAPPSSE_68_TC41(16)     COMPLETE      PASS      2018-08-29 23:20:41 2018-08-29 23:20:41 2018-08-29 23:25:22 
+1.1.7.17. UCAPPSSE_68_TC42(17)     COMPLETE      PASS      2018-08-29 23:25:22 2018-08-29 23:25:22 2018-08-29 23:30:16 
+1.1.7.18. UCAPPSSE_68_TC43(18)     COMPLETE      PASS      2018-08-29 23:30:16 2018-08-29 23:30:16 2018-08-29 23:36:15 
+1.1.7.19. UCAPPSSE_68_TC46(19)     COMPLETE      PASS      2018-08-29 23:36:16 2018-08-29 23:36:15 2018-08-29 23:42:09 
+1.1.7.20. UCAPPSSE_68_TC44(20)     COMPLETE      FAIL      2018-08-29 23:42:09 2018-08-29 23:42:09 2018-08-29 23:55:37 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.164 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_68_TC44;_29-Aug-18_11-46-43_380_PM on 10.102.1.164 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_68_TC44;_29-Aug-18_11-51-43_587_PM on 10.102.1.180 is Fail
+1.1.7.21. UCAPPSSE_68_TC45(21)     COMPLETE      PASS      2018-08-29 23:55:37 2018-08-29 23:55:37 2018-08-30 00:00:26 
+1.1.7.22. UCAPPSSE_68_TC19(22)     COMPLETE      PASS      2018-08-30 00:00:26 2018-08-30 00:00:26 2018-08-30 00:06:09 
+1.1.7.23. UCAPPSSE_68_TC33(23)     COMPLETE      PASS      2018-08-30 00:06:09 2018-08-30 00:06:09 2018-08-30 00:11:37 
+1.1.7.24. UCAPPSSE_68_TC34(24)     COMPLETE      FAIL      2018-08-30 00:11:37 2018-08-30 00:11:37 2018-08-30 00:14:53 
+Error: Invalid variable
+Info : .host
+1.1.7.25. UCAPPSSE_68_TC53(25)     COMPLETE      FAIL      2018-08-30 00:14:53 2018-08-30 00:14:53 2018-08-30 00:21:19 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ParkCall;1 on 10.128.224.49 is Fail
+1.1.7.26. UCAPPSSE_68_TC54(26)     COMPLETE      PASS      2018-08-30 00:21:19 2018-08-30 00:21:19 2018-08-30 00:26:19 
+1.1.7.27. UCAPPSSE_68_TC55(27)     COMPLETE      FAIL      2018-08-30 00:26:20 2018-08-30 00:26:19 2018-08-30 00:32:31 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ParkCall;1 on 10.128.224.49 is Fail
+1.1.7.28. UCAPPSSE_68_TC56(28)     COMPLETE      PASS      2018-08-30 00:32:31 2018-08-30 00:32:31 2018-08-30 00:37:31 
+1.1.7.29. UCAPPSSE_68_TC35(29)     COMPLETE      PASS      2018-08-30 00:37:31 2018-08-30 00:37:31 2018-08-30 00:42:47 
+1.1.7.30. UCAPPSSE_68_TC57(30)     COMPLETE      FAIL      2018-08-30 00:42:47 2018-08-30 00:42:47 2018-08-30 00:50:56 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.190 is Fail
+Error: Test case failure
+Info : java.lang.NullPointerException
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.190 is Fail
+1.1.7.31. UCAPPSSE_68_TC20(31)     COMPLETE      PASS      2018-08-30 00:50:56 2018-08-30 00:50:56 2018-08-30 00:55:27 
+1.1.7.32. UCAPPSSE_68_TC21(32)     COMPLETE      FAIL      2018-08-30 00:55:27 2018-08-30 00:55:27 2018-08-30 01:03:09 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ConfigureExclusion;On on 10.128.224.49 is Fail
+1.1.7.33. UCAPPSSE_68_TC22(33)     COMPLETE      FAIL      2018-08-30 01:03:09 2018-08-30 01:03:09 2018-08-30 01:09:33 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_ConfigureExclusion;On on 10.128.224.49 is Fail
+1.1.7.34. UCAPPSSE_68_TC23(34)     COMPLETE      PASS      2018-08-30 01:09:33 2018-08-30 01:09:33 2018-08-30 01:15:41 
+----------------------------------------------------------------------------------------------------------------------
+1.1.8. Beta_UCAPPSSE_687.pkg       COMPLETE      PASS                          2018-08-30 01:15:41 2018-08-30 02:05:52 
+
+            Passed : 2  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.8.1. UCAPPSSE_687_TC3(1)       COMPLETE      PASS      2018-08-30 01:15:41 2018-08-30 01:15:41 2018-08-30 01:19:38 
+1.1.8.2. UCAPPSSE_687_TC4(2)       COMPLETE      PASS      2018-08-30 01:19:38 2018-08-30 01:19:38 2018-08-30 01:24:01 
+----------------------------------------------------------------------------------------------------------------------
+1.1.9. Beta_UCAPPSSE_376_TMATestBedCOMPLETE      FAIL                          2018-08-30 01:24:01 2018-08-30 02:05:52 
+
+            Passed : 0  ( 0  % )
+            Failed : 2  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.9.1. UCAPPSSE_376_TC1(1)       COMPLETE      FAIL      2018-08-30 01:24:01 2018-08-30 01:24:01 2018-08-30 01:32:01 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.164 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_376_TC1;_30-Aug-18_01-25-38_300_AM on 10.102.1.164 is Fail
+1.1.9.2. UCAPPSSE_376_TC2(2)       COMPLETE      FAIL      2018-08-30 01:32:01 2018-08-30 01:32:01 2018-08-30 01:37:32 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.49 is Fail
+----------------------------------------------------------------------------------------------------------------------
+1.1.10. Beta_UCAPPSSE_414.pkg      COMPLETE      FAIL                          2018-08-30 01:37:32 2018-08-30 02:05:52 
+
+            Passed : 0  ( 0  % )
+            Failed : 2  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.10.1. UCAPPSSE_414_TC3(1)      COMPLETE      FAIL      2018-08-30 01:37:32 2018-08-30 01:37:32 2018-08-30 01:43:55 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.164 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;null;_30-Aug-18_01-38-34_280_AM on 10.102.1.164 is Fail
+1.1.10.2. UCAPPSSE_414_TC4(2)      COMPLETE      FAIL      2018-08-30 01:43:55 2018-08-30 01:43:55 2018-08-30 01:46:49 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.49 is Fail
+Error: Test case failure
+Info : java.lang.NullPointerException
+----------------------------------------------------------------------------------------------------------------------
+1.1.11. Beta_UCAPPSSE_679.pkg      COMPLETE      PASS                          2018-08-30 01:46:49 2018-08-30 02:05:52 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.11.1. UCAPPSSE_679_TC3(1)      COMPLETE      PASS      2018-08-30 01:46:50 2018-08-30 01:46:49 2018-08-30 01:54:30 
+1.1.11.2. UCAPPSSE_679_TC1(2)      COMPLETE      PASS      2018-08-30 01:54:30 2018-08-30 01:54:30 2018-08-30 01:59:48 
+1.1.11.3. UCAPPSSE_679_TC2(3)      COMPLETE      PASS      2018-08-30 01:59:49 2018-08-30 01:59:48 2018-08-30 02:05:52 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------

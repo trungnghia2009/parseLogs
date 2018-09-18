@@ -1,0 +1,1349 @@
+**********************************************************************************************************************
+                Package Execution Report:
+
+      Package Name : TMA_Regression_Setup1_TestBed1.pkg
+        Start Time : 2018-09-08 14:55:32
+     Complete Time : 2018-09-09 19:13:49
+
+----------------------------------------------------------------------------------------------------------------------
+ Test Case Package : TMA_Regression_Setup1_TestBed1.pkg
+             State : COMPLETE
+            Result : FAIL
+             Start : 2018-09-08 14:55:32
+          Complete : 2018-09-09 19:13:49
+
+            Passed : 189  ( 66  % )
+            Failed : 94  ( 33  % )
+           Not Run : 0  ( 0  % )
+             Total : 283
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1. UC30_Regression_Alpha_TMATestBedCOMPLETE      FAIL                          2018-09-08 14:55:32 2018-09-09 19:13:49 
+
+            Passed : 72  ( 90  % )
+            Failed : 8  ( 10  % )
+           Not Run : 0  ( 0  % )
+             Total : 80
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1. Alpha_Regression_CI_Suite_TMATCOMPLETE      FAIL                          2018-09-08 14:55:32 2018-09-09 19:13:49 
+
+            Passed : 39  ( 86  % )
+            Failed : 6  ( 13  % )
+           Not Run : 0  ( 0  % )
+             Total : 45
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.1. Alpha_UCAPPSSE_486_TMATestBeCOMPLETE      PASS                          2018-09-08 14:55:32 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.1.1. UCAPPSSE_486_TC1(1)       COMPLETE      PASS      2018-09-08 14:55:32 2018-09-08 14:55:32 2018-09-08 15:01:26 
+----------------------------------------------------------------------------------------------------------------------
+1.1.2. Alpha_UCAPPSSE_510.pkg      COMPLETE      FAIL                          2018-09-08 15:01:26 2018-09-09 19:13:49 
+
+            Passed : 11  ( 91  % )
+            Failed : 1  ( 8  % )
+           Not Run : 0  ( 0  % )
+             Total : 12
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.2.1. UCAPPSSE_510_TC1(1)       COMPLETE      PASS      2018-09-08 15:01:26 2018-09-08 15:01:26 2018-09-08 15:05:03 
+1.1.2.2. UCAPPSSE_510_TC3(2)       COMPLETE      PASS      2018-09-08 15:05:03 2018-09-08 15:05:03 2018-09-08 15:08:11 
+1.1.2.3. UCAPPSSE_510_TC6(3)       COMPLETE      PASS      2018-09-08 15:08:11 2018-09-08 15:08:11 2018-09-08 15:12:19 
+1.1.2.4. UCAPPSSE_510_TC7(4)       COMPLETE      PASS      2018-09-08 15:12:19 2018-09-08 15:12:19 2018-09-08 15:18:11 
+1.1.2.5. UCAPPSSE_510_TC9(5)       COMPLETE      PASS      2018-09-08 15:18:11 2018-09-08 15:18:11 2018-09-08 15:23:49 
+1.1.2.6. UCAPPSSE_510_TC14(6)      COMPLETE      PASS      2018-09-08 15:23:49 2018-09-08 15:23:49 2018-09-08 15:27:49 
+1.1.2.7. UCAPPSSE_510_TC15(7)      COMPLETE      PASS      2018-09-08 15:27:49 2018-09-08 15:27:49 2018-09-08 15:31:42 
+1.1.2.8. UCAPPSSE_510_TC2(8)       COMPLETE      PASS      2018-09-08 15:31:42 2018-09-08 15:31:42 2018-09-08 15:35:13 
+1.1.2.9. UCAPPSSE_510_TC4(9)       COMPLETE      FAIL      2018-09-08 15:35:13 2018-09-08 15:35:13 2018-09-08 15:39:50 
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.151 is Fail
+1.1.2.10. UCAPPSSE_510_TC8(10)     COMPLETE      PASS      2018-09-08 15:39:50 2018-09-08 15:39:50 2018-09-08 15:44:58 
+1.1.2.11. UCAPPSSE_510_TC17(11)    COMPLETE      PASS      2018-09-08 15:44:58 2018-09-08 15:44:58 2018-09-08 15:49:53 
+1.1.2.12. UCAPPSSE_510_TC16(12)    COMPLETE      PASS      2018-09-08 15:49:53 2018-09-08 15:49:53 2018-09-08 15:55:49 
+----------------------------------------------------------------------------------------------------------------------
+1.1.3. Alpha_UCAPPSSE_511.pkg      COMPLETE      PASS                          2018-09-08 15:55:49 2018-09-09 19:13:49 
+
+            Passed : 13  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 13
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.3.1. UCAPPSSE_511_TC1(1)       COMPLETE      PASS      2018-09-08 15:55:49 2018-09-08 15:55:49 2018-09-08 15:59:17 
+1.1.3.2. UCAPPSSE_511_TC3(2)       COMPLETE      PASS      2018-09-08 15:59:17 2018-09-08 15:59:17 2018-09-08 16:03:16 
+1.1.3.3. UCAPPSSE_511_TC4(3)       COMPLETE      PASS      2018-09-08 16:03:16 2018-09-08 16:03:16 2018-09-08 16:07:39 
+1.1.3.4. UCAPPSSE_511_TC5(4)       COMPLETE      PASS      2018-09-08 16:07:39 2018-09-08 16:07:39 2018-09-08 16:13:38 
+1.1.3.5. UCAPPSSE_511_TC7(5)       COMPLETE      PASS      2018-09-08 16:13:38 2018-09-08 16:13:38 2018-09-08 16:19:23 
+1.1.3.6. UCAPPSSE_511_TC12(6)      COMPLETE      PASS      2018-09-08 16:19:23 2018-09-08 16:19:23 2018-09-08 16:23:00 
+1.1.3.7. UCAPPSSE_511_TC17(7)      COMPLETE      PASS      2018-09-08 16:23:00 2018-09-08 16:23:00 2018-09-08 16:28:50 
+1.1.3.8. UCAPPSSE_511_TC2(8)       COMPLETE      PASS      2018-09-08 16:28:50 2018-09-08 16:28:50 2018-09-08 16:32:36 
+1.1.3.9. UCAPPSSE_511_TC6(9)       COMPLETE      PASS      2018-09-08 16:32:36 2018-09-08 16:32:36 2018-09-08 16:37:54 
+1.1.3.10. UCAPPSSE_511_TC13(10)    COMPLETE      PASS      2018-09-08 16:37:54 2018-09-08 16:37:54 2018-09-08 16:41:50 
+1.1.3.11. UCAPPSSE_511_TC14(11)    COMPLETE      PASS      2018-09-08 16:41:50 2018-09-08 16:41:50 2018-09-08 16:45:48 
+1.1.3.12. UCAPPSSE_511_TC15(12)    COMPLETE      PASS      2018-09-08 16:45:48 2018-09-08 16:45:48 2018-09-08 16:50:09 
+1.1.3.13. UCAPPSSE_511_TC16(13)    COMPLETE      PASS      2018-09-08 16:50:09 2018-09-08 16:50:09 2018-09-08 16:56:08 
+----------------------------------------------------------------------------------------------------------------------
+1.1.4. Alpha_UCAPPSSE_762.pkg      COMPLETE      PASS                          2018-09-08 16:56:08 2018-09-09 19:13:49 
+
+            Passed : 4  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.4.1. UCAPPSSE_762_TC1(1)       COMPLETE      PASS      2018-09-08 16:56:08 2018-09-08 16:56:08 2018-09-08 17:01:56 
+1.1.4.2. UCAPPSSE_762_TC2(2)       COMPLETE      PASS      2018-09-08 17:01:56 2018-09-08 17:01:56 2018-09-08 17:08:05 
+1.1.4.3. UCAPPSSE_762_TC3(3)       COMPLETE      PASS      2018-09-08 17:08:05 2018-09-08 17:08:05 2018-09-08 17:13:06 
+1.1.4.4. UCAPPSSE_762_TC4(4)       COMPLETE      PASS      2018-09-08 17:13:06 2018-09-08 17:13:06 2018-09-08 17:17:57 
+----------------------------------------------------------------------------------------------------------------------
+1.1.5. Alpha_UCAPPSSE_2750.pkg     COMPLETE      FAIL                          2018-09-08 17:17:57 2018-09-09 19:13:49 
+
+            Passed : 5  ( 71  % )
+            Failed : 2  ( 28  % )
+           Not Run : 0  ( 0  % )
+             Total : 7
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.5.1. UCAPPSSE_2750_TC7(1)      COMPLETE      PASS      2018-09-08 17:17:57 2018-09-08 17:17:57 2018-09-08 17:22:30 
+1.1.5.2. UCAPPSSE_2750_TC31(2)     COMPLETE      PASS      2018-09-08 17:22:30 2018-09-08 17:22:30 2018-09-08 17:26:50 
+1.1.5.3. UCAPPSSE_2750_TC32(3)     COMPLETE      PASS      2018-09-08 17:26:50 2018-09-08 17:26:50 2018-09-08 17:31:58 
+1.1.5.4. UCAPPSSE_2750_TC33(4)     COMPLETE      PASS      2018-09-08 17:31:58 2018-09-08 17:31:58 2018-09-08 17:37:40 
+1.1.5.5. UCAPPSSE_2750_TC34(5)     COMPLETE      PASS      2018-09-08 17:37:40 2018-09-08 17:37:40 2018-09-08 17:43:42 
+1.1.5.6. UCAPPSSE_2750_TC78(6)     COMPLETE      FAIL      2018-09-08 17:43:42 2018-09-08 17:43:42 2018-09-08 17:49:22 
+Error: Test case failure
+Info : java.lang.Exception: BecomeModerator;00903 on 10.102.1.176 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.176 is Fail
+1.1.5.7. UCAPPSSE_2750_TC79(7)     COMPLETE      FAIL      2018-09-08 17:49:22 2018-09-08 17:49:22 2018-09-08 17:56:25 
+Error: Test case failure
+Info : java.lang.Exception: BecomeModerator Fail
+----------------------------------------------------------------------------------------------------------------------
+1.1.6. Alpha_UCAPPSSE_2751.pkg     COMPLETE      PASS                          2018-09-08 17:56:25 2018-09-09 19:13:49 
+
+            Passed : 2  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.6.1. UCAPPSSE_2751_TC1(1)      COMPLETE      PASS      2018-09-08 17:56:25 2018-09-08 17:56:25 2018-09-08 18:01:27 
+1.1.6.2. UCAPPSSE_2751_TC4(2)      COMPLETE      PASS      2018-09-08 18:01:27 2018-09-08 18:01:27 2018-09-08 18:08:32 
+----------------------------------------------------------------------------------------------------------------------
+1.1.7. Alpha_UCAPPSSE_2745.pkg     COMPLETE      PASS                          2018-09-08 18:08:32 2018-09-09 19:13:49 
+
+            Passed : 2  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.7.1. UCAPPSSE_2745_TC1(1)      COMPLETE      PASS      2018-09-08 18:08:32 2018-09-08 18:08:32 2018-09-08 18:13:02 
+1.1.7.2. UCAPPSSE_2745_TC5(2)      COMPLETE      PASS      2018-09-08 18:13:03 2018-09-08 18:13:02 2018-09-08 18:18:32 
+----------------------------------------------------------------------------------------------------------------------
+1.1.8. Alpha_TMA_UCAPPSSE_2747.pkg COMPLETE      PASS                          2018-09-08 18:18:32 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.8.1. UCAPPSSE_2747_TC6(1)      COMPLETE      PASS      2018-09-08 18:18:32 2018-09-08 18:18:32 2018-09-08 18:21:22 
+----------------------------------------------------------------------------------------------------------------------
+1.1.9. Alpha_UCAPPSSE_2926_TMATestBCOMPLETE      FAIL                          2018-09-08 18:21:22 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 3  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.1.9.1. UCAPPSSE_2926_TC18A(1)    COMPLETE      FAIL      2018-09-08 18:21:22 2018-09-08 18:21:22 2018-09-08 18:24:33 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2926_TC18A;_08-Sep-18_06-21-41_615_PM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: Cleanup on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+1.1.9.2. UCAPPSSE_2926_TC18B(2)    COMPLETE      FAIL      2018-09-08 18:24:34 2018-09-08 18:24:34 2018-09-08 18:26:24 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2926_TC18B;_08-Sep-18_06-24-52_808_PM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: Cleanup on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+1.1.9.3. UCAPPSSE_2926_TC18C(3)    COMPLETE      FAIL      2018-09-08 18:26:25 2018-09-08 18:26:24 2018-09-08 18:28:17 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2926_TC18C;_08-Sep-18_06-26-43_540_PM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: Cleanup on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+1.2. Alpha_DeskPhone_96xx_H323.pkg COMPLETE      PASS                          2018-09-08 18:28:17 2018-09-09 19:13:49 
+
+            Passed : 14  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 14
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.1. Configuration_HardPhone.pkg COMPLETE      PASS                          2018-09-08 18:28:17 2018-09-09 19:13:49 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.1.1. Login_DeskPhone_1(1)      COMPLETE      PASS      2018-09-08 18:28:17 2018-09-08 18:28:17 2018-09-08 18:28:57 
+1.2.1.2. Login_DeskPhone_2(2)      COMPLETE      PASS      2018-09-08 18:28:57 2018-09-08 18:28:57 2018-09-08 18:29:37 
+1.2.1.3. Login_DeskPhone_3(3)      COMPLETE      PASS      2018-09-08 18:29:37 2018-09-08 18:29:37 2018-09-08 18:30:56 
+----------------------------------------------------------------------------------------------------------------------
+1.2.2. DeskPhone_Alpha_UCAPPSSE_510COMPLETE      PASS                          2018-09-08 18:30:56 2018-09-09 19:13:49 
+
+            Passed : 4  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.2.1. UCAPPSSE_510_TC10(1)      COMPLETE      PASS      2018-09-08 18:30:56 2018-09-08 18:30:56 2018-09-08 18:34:42 
+1.2.2.2. UCAPPSSE_510_TC11(2)      COMPLETE      PASS      2018-09-08 18:34:42 2018-09-08 18:34:42 2018-09-08 18:38:12 
+1.2.2.3. UCAPPSSE_510_TC18(3)      COMPLETE      PASS      2018-09-08 18:38:12 2018-09-08 18:38:12 2018-09-08 18:41:28 
+1.2.2.4. UCAPPSSE_510_TC19(4)      COMPLETE      PASS      2018-09-08 18:41:28 2018-09-08 18:41:28 2018-09-08 18:45:09 
+----------------------------------------------------------------------------------------------------------------------
+1.2.3. DeskPhone_Alpha_UCAPPSSE_511COMPLETE      PASS                          2018-09-08 18:45:09 2018-09-09 19:13:49 
+
+            Passed : 4  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.3.1. UCAPPSSE_511_TC8(1)       COMPLETE      PASS      2018-09-08 18:45:09 2018-09-08 18:45:09 2018-09-08 18:48:39 
+1.2.3.2. UCAPPSSE_511_TC9(2)       COMPLETE      PASS      2018-09-08 18:48:39 2018-09-08 18:48:39 2018-09-08 18:52:16 
+1.2.3.3. UCAPPSSE_511_TC18(3)      COMPLETE      PASS      2018-09-08 18:52:16 2018-09-08 18:52:16 2018-09-08 18:56:16 
+1.2.3.4. UCAPPSSE_511_TC19(4)      COMPLETE      PASS      2018-09-08 18:56:16 2018-09-08 18:56:16 2018-09-08 19:00:25 
+----------------------------------------------------------------------------------------------------------------------
+1.2.4. DeskPhone_Alpha_UCAPPSSE_610COMPLETE      PASS                          2018-09-08 19:00:25 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.4.1. UCAPPSSE_610_TC7(1)       COMPLETE      PASS      2018-09-08 19:00:25 2018-09-08 19:00:25 2018-09-08 19:05:00 
+----------------------------------------------------------------------------------------------------------------------
+1.2.5. DeskPhone_Alpha_UCAPPSSE_626COMPLETE      PASS                          2018-09-08 19:05:00 2018-09-09 19:13:49 
+
+            Passed : 2  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.2.5.1. UCAPPSSE_626_TC11(1)      COMPLETE      PASS      2018-09-08 19:05:00 2018-09-08 19:05:00 2018-09-08 19:08:31 
+1.2.5.2. UCAPPSSE_626_TC12(2)      COMPLETE      PASS      2018-09-08 19:08:31 2018-09-08 19:08:31 2018-09-08 19:12:21 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+1.3. Alpha_DeskPhone_96xx_SIP.pkg  COMPLETE      PASS                          2018-09-08 19:12:21 2018-09-09 19:13:49 
+
+            Passed : 8  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 8
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.3.1. DeskPhone_Alpha_UCAPPSSE_519COMPLETE      PASS                          2018-09-08 19:12:21 2018-09-09 19:13:49 
+
+            Passed : 7  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 7
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.3.1.1. UCAPPSSE_519_TC1(1)       COMPLETE      PASS      2018-09-08 19:12:21 2018-09-08 19:12:21 2018-09-08 19:18:14 
+1.3.1.2. UCAPPSSE_519_TC2(2)       COMPLETE      PASS      2018-09-08 19:18:14 2018-09-08 19:18:14 2018-09-08 19:23:23 
+1.3.1.3. UCAPPSSE_519_TC3(3)       COMPLETE      PASS      2018-09-08 19:23:23 2018-09-08 19:23:23 2018-09-08 19:31:00 
+1.3.1.4. UCAPPSSE_519_TC4(4)       COMPLETE      PASS      2018-09-08 19:31:00 2018-09-08 19:31:00 2018-09-08 19:38:06 
+1.3.1.5. UCAPPSSE_519_TC5(5)       COMPLETE      PASS      2018-09-08 19:38:06 2018-09-08 19:38:06 2018-09-08 19:44:33 
+1.3.1.6. UCAPPSSE_519_TC6(6)       COMPLETE      PASS      2018-09-08 19:44:33 2018-09-08 19:44:33 2018-09-08 19:50:19 
+1.3.1.7. UCAPPSSE_519_TC7(7)       COMPLETE      PASS      2018-09-08 19:50:19 2018-09-08 19:50:19 2018-09-08 19:58:56 
+----------------------------------------------------------------------------------------------------------------------
+1.3.2. DeskPhone_Alpha_UCAPPSSE_292COMPLETE      PASS                          2018-09-08 19:58:56 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.3.2.1. UCAPPSSE_2926_TC32A(1)    COMPLETE      PASS      2018-09-08 19:58:56 2018-09-08 19:58:56 2018-09-08 20:02:34 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+1.4. Alpha_Outlook_TestBed1.pkg    COMPLETE      FAIL                          2018-09-08 20:02:34 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 2  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.4.1. Alpha_UCAPM_1342.pkg        COMPLETE      FAIL                          2018-09-08 20:02:34 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 2  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.4.1.1. UCAPM_1342_TC1(1)         COMPLETE      FAIL      2018-09-08 20:02:34 2018-09-08 20:02:34 2018-09-08 20:16:09 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_MergeCall;1;2 on 10.128.224.51 is Fail
+1.4.1.2. UCAPM_1342_TC7(2)         COMPLETE      FAIL      2018-09-08 20:16:09 2018-09-08 20:16:09 2018-09-08 20:22:23 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_MakeCallFromOutlookContactCard;OneX00902 Hanoi;VIDEO on 10.128.224.51 is Fail
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+1.5. Alpha_Meetme_TestBed1.pkg     COMPLETE      PASS                          2018-09-08 20:22:23 2018-09-09 19:13:49 
+
+            Passed : 11  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 11
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.5.1. Configuration.pkg           COMPLETE      PASS                          2018-09-08 20:22:23 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.5.1.1. Configuration(1)          COMPLETE      PASS      2018-09-08 20:22:23 2018-09-08 20:22:23 2018-09-08 20:24:56 
+----------------------------------------------------------------------------------------------------------------------
+1.5.2. Alpha_Meetme_UCAPPSSE_2750.pCOMPLETE      PASS                          2018-09-08 20:24:56 2018-09-09 19:13:49 
+
+            Passed : 5  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.5.2.1. UCAPPSSE_2750_TC1(1)      COMPLETE      PASS      2018-09-08 20:24:56 2018-09-08 20:24:56 2018-09-08 20:31:42 
+1.5.2.2. UCAPPSSE_2750_TC66(2)     COMPLETE      PASS      2018-09-08 20:31:42 2018-09-08 20:31:42 2018-09-08 20:38:49 
+1.5.2.3. UCAPPSSE_2750_TC67(3)     COMPLETE      PASS      2018-09-08 20:38:49 2018-09-08 20:38:49 2018-09-08 20:43:00 
+1.5.2.4. UCAPPSSE_2750_TC72(4)     COMPLETE      PASS      2018-09-08 20:43:00 2018-09-08 20:43:00 2018-09-08 20:47:49 
+1.5.2.5. UCAPPSSE_2750_TC73(5)     COMPLETE      PASS      2018-09-08 20:47:49 2018-09-08 20:47:49 2018-09-08 20:56:45 
+----------------------------------------------------------------------------------------------------------------------
+1.5.3. Alpha_Meetme_UCAPPSSE_2745.pCOMPLETE      PASS                          2018-09-08 20:56:45 2018-09-09 19:13:49 
+
+            Passed : 4  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.5.3.1. UCAPPSSE_2745_TC2(1)      COMPLETE      PASS      2018-09-08 20:56:45 2018-09-08 20:56:45 2018-09-08 21:01:47 
+1.5.3.2. UCAPPSSE_2745_TC6(2)      COMPLETE      PASS      2018-09-08 21:01:47 2018-09-08 21:01:47 2018-09-08 21:06:22 
+1.5.3.3. UCAPPSSE_2745_TC8(3)      COMPLETE      PASS      2018-09-08 21:06:22 2018-09-08 21:06:22 2018-09-08 21:12:20 
+1.5.3.4. UCAPPSSE_2745_TC10(4)     COMPLETE      PASS      2018-09-08 21:12:20 2018-09-08 21:12:20 2018-09-08 21:20:06 
+----------------------------------------------------------------------------------------------------------------------
+1.5.4. Alpha_Meetme_UCAPPSSE_2752.pCOMPLETE      PASS                          2018-09-08 21:20:06 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+1.5.4.1. UCAPPSSE_2752_TC5(1)      COMPLETE      PASS      2018-09-08 21:20:06 2018-09-08 21:20:06 2018-09-08 21:25:19 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2. UC30_Regression_Beta_TestBed1_TMCOMPLETE      FAIL                          2018-09-08 21:25:19 2018-09-09 19:13:49 
+
+            Passed : 117  ( 57  % )
+            Failed : 86  ( 42  % )
+           Not Run : 0  ( 0  % )
+             Total : 203
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1. Beta_DeskPhone_96xx_H323.pkg  COMPLETE      FAIL                          2018-09-08 21:25:19 2018-09-09 19:13:49 
+
+            Passed : 26  ( 56  % )
+            Failed : 20  ( 43  % )
+           Not Run : 0  ( 0  % )
+             Total : 46
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.1. Configuration_HardPhone.pkg COMPLETE      PASS                          2018-09-08 21:25:19 2018-09-09 19:13:49 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.1.1. Login_DeskPhone_1(1)      COMPLETE      PASS      2018-09-08 21:25:19 2018-09-08 21:25:19 2018-09-08 21:25:59 
+2.1.1.2. Login_DeskPhone_2(2)      COMPLETE      PASS      2018-09-08 21:25:59 2018-09-08 21:25:59 2018-09-08 21:26:39 
+2.1.1.3. Login_DeskPhone_3(3)      COMPLETE      PASS      2018-09-08 21:26:39 2018-09-08 21:26:39 2018-09-08 21:27:59 
+----------------------------------------------------------------------------------------------------------------------
+2.1.2. DeskPhone_Beta_UCAPPSSE_163.COMPLETE      FAIL                          2018-09-08 21:27:59 2018-09-09 19:13:49 
+
+            Passed : 19  ( 54  % )
+            Failed : 16  ( 45  % )
+           Not Run : 0  ( 0  % )
+             Total : 35
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.2.1. UCAPPSSE_163_TC11(1)      COMPLETE      FAIL      2018-09-08 21:27:59 2018-09-08 21:27:59 2018-09-08 21:32:15 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.2. UCAPPSSE_163_TC12(2)      COMPLETE      PASS      2018-09-08 21:32:15 2018-09-08 21:32:15 2018-09-08 21:36:06 
+2.1.2.3. UCAPPSSE_163_TC13(3)      COMPLETE      PASS      2018-09-08 21:36:06 2018-09-08 21:36:06 2018-09-08 21:40:29 
+2.1.2.4. UCAPPSSE_163_TC15(4)      COMPLETE      FAIL      2018-09-08 21:40:29 2018-09-08 21:40:29 2018-09-08 21:46:53 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_MergeCall;1;2 on 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.5. UCAPPSSE_163_TC16(5)      COMPLETE      PASS      2018-09-08 21:46:53 2018-09-08 21:46:53 2018-09-08 21:52:43 
+2.1.2.6. UCAPPSSE_163_TC17(6)      COMPLETE      PASS      2018-09-08 21:52:43 2018-09-08 21:52:43 2018-09-08 21:57:56 
+2.1.2.7. UCAPPSSE_163_TC18(7)      COMPLETE      PASS      2018-09-08 21:57:56 2018-09-08 21:57:56 2018-09-08 22:01:30 
+2.1.2.8. UCAPPSSE_163_TC19(8)      COMPLETE      PASS      2018-09-08 22:01:30 2018-09-08 22:01:30 2018-09-08 22:05:16 
+2.1.2.9. UCAPPSSE_163_TC21(9)      COMPLETE      PASS      2018-09-08 22:05:16 2018-09-08 22:05:16 2018-09-08 22:08:33 
+2.1.2.10. UCAPPSSE_163_TC29(10)    COMPLETE      PASS      2018-09-08 22:08:33 2018-09-08 22:08:33 2018-09-08 22:12:50 
+2.1.2.11. UCAPPSSE_163_TC22(11)    COMPLETE      PASS      2018-09-08 22:12:50 2018-09-08 22:12:50 2018-09-08 22:16:02 
+2.1.2.12. UCAPPSSE_163_TC45(12)    COMPLETE      PASS      2018-09-08 22:16:02 2018-09-08 22:16:02 2018-09-08 22:20:36 
+2.1.2.13. UCAPPSSE_163_TC46(13)    COMPLETE      PASS      2018-09-08 22:20:36 2018-09-08 22:20:36 2018-09-08 22:22:56 
+2.1.2.14. UCAPPSSE_163_TC47(14)    COMPLETE      PASS      2018-09-08 22:22:56 2018-09-08 22:22:56 2018-09-08 22:25:25 
+2.1.2.15. UCAPPSSE_163_TC48(15)    COMPLETE      PASS      2018-09-08 22:25:25 2018-09-08 22:25:25 2018-09-08 22:28:37 
+2.1.2.16. UCAPPSSE_163_TC49(16)    COMPLETE      PASS      2018-09-08 22:28:37 2018-09-08 22:28:37 2018-09-08 22:30:51 
+2.1.2.17. UCAPPSSE_163_TC31(17)    COMPLETE      PASS      2018-09-08 22:30:51 2018-09-08 22:30:51 2018-09-08 22:35:13 
+2.1.2.18. UCAPPSSE_163_TC33(18)    COMPLETE      PASS      2018-09-08 22:35:13 2018-09-08 22:35:13 2018-09-08 22:40:46 
+2.1.2.19. UCAPPSSE_163_TC20(19)    COMPLETE      PASS      2018-09-08 22:40:46 2018-09-08 22:40:46 2018-09-08 22:43:47 
+2.1.2.20. UCAPPSSE_163_TC32(20)    COMPLETE      PASS      2018-09-08 22:43:47 2018-09-08 22:43:47 2018-09-08 22:49:17 
+2.1.2.21. UCAPPSSE_163_TC50(21)    COMPLETE      FAIL      2018-09-08 22:49:17 2018-09-08 22:49:17 2018-09-08 22:59:41 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.22. UCAPPSSE_163_TC34(22)    COMPLETE      FAIL      2018-09-08 22:59:41 2018-09-08 22:59:41 2018-09-08 23:06:07 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.23. UCAPPSSE_163_TC35(23)    COMPLETE      FAIL      2018-09-08 23:06:07 2018-09-08 23:06:07 2018-09-08 23:11:59 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.24. UCAPPSSE_163_TC36(24)    COMPLETE      FAIL      2018-09-08 23:11:59 2018-09-08 23:11:59 2018-09-08 23:18:05 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.25. UCAPPSSE_163_TC37(25)    COMPLETE      FAIL      2018-09-08 23:18:05 2018-09-08 23:18:05 2018-09-08 23:24:03 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.26. UCAPPSSE_163_TC38(26)    COMPLETE      FAIL      2018-09-08 23:24:03 2018-09-08 23:24:03 2018-09-08 23:30:59 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.27. UCAPPSSE_163_TC39(27)    COMPLETE      FAIL      2018-09-08 23:30:59 2018-09-08 23:30:59 2018-09-08 23:36:41 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.28. UCAPPSSE_163_TC40(28)    COMPLETE      FAIL      2018-09-08 23:36:41 2018-09-08 23:36:41 2018-09-08 23:43:13 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.29. UCAPPSSE_163_TC41(29)    COMPLETE      FAIL      2018-09-08 23:43:13 2018-09-08 23:43:13 2018-09-08 23:48:48 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.30. UCAPPSSE_163_TC42(30)    COMPLETE      FAIL      2018-09-08 23:48:48 2018-09-08 23:48:48 2018-09-08 23:57:17 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.31. UCAPPSSE_163_TC43(31)    COMPLETE      FAIL      2018-09-08 23:57:17 2018-09-08 23:57:17 2018-09-09 00:05:04 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+2.1.2.32. UCAPPSSE_163_TC44(32)    COMPLETE      FAIL      2018-09-09 00:05:04 2018-09-09 00:05:04 2018-09-09 00:12:53 
+Error: Test case failure
+Info : java.lang.Exception: No incoming call to answer
+2.1.2.33. UCAPPSSE_163_TC51(33)    COMPLETE      PASS      2018-09-09 00:12:53 2018-09-09 00:12:53 2018-09-09 00:17:27 
+2.1.2.34. UCAPPSSE_163_TC52(34)    COMPLETE      FAIL      2018-09-09 00:17:27 2018-09-09 00:17:27 2018-09-09 00:22:58 
+Error: Test case failure
+Info : java.lang.Exception: No incoming call to bridge on call-appearance 1
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.2.35. UCAPPSSE_163_TC53(35)    COMPLETE      FAIL      2018-09-09 00:22:58 2018-09-09 00:22:58 2018-09-09 00:29:21 
+Error: Test case failure
+Info : java.lang.Exception: No incoming call to bridge on call-appearance 1
+----------------------------------------------------------------------------------------------------------------------
+2.1.3. DeskPhone_Beta_UCAPPSSE_13.pCOMPLETE      FAIL                          2018-09-09 00:29:21 2018-09-09 19:13:49 
+
+            Passed : 2  ( 66  % )
+            Failed : 1  ( 33  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.3.1. UCAPPSSE_13_TC12(1)       COMPLETE      PASS      2018-09-09 00:29:21 2018-09-09 00:29:21 2018-09-09 00:33:36 
+2.1.3.2. UCAPPSSE_13_TC24(2)       COMPLETE      PASS      2018-09-09 00:33:36 2018-09-09 00:33:36 2018-09-09 00:37:48 
+2.1.3.3. UCAPPSSE_13_TC25(3)       COMPLETE      FAIL      2018-09-09 00:37:48 2018-09-09 00:37:48 2018-09-09 00:45:26 
+Error: Test case failure
+Info : java.lang.Exception: bridgeLineAppearance -> Bridge Line Appearance failed
+----------------------------------------------------------------------------------------------------------------------
+2.1.4. DeskPhone_Beta_UCAPPSSE_626.COMPLETE      FAIL                          2018-09-09 00:45:26 2018-09-09 19:13:49 
+
+            Passed : 1  ( 50  % )
+            Failed : 1  ( 50  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.4.1. UCAPPSSE_626_TC23(1)      COMPLETE      PASS      2018-09-09 00:45:26 2018-09-09 00:45:26 2018-09-09 00:49:34 
+2.1.4.2. UCAPPSSE_626_TC24(2)      COMPLETE      FAIL      2018-09-09 00:49:34 2018-09-09 00:49:34 2018-09-09 00:56:22 
+Error: Test case failure
+Info : java.lang.Exception: No incoming call to bridge on call-appearance 1
+----------------------------------------------------------------------------------------------------------------------
+2.1.5. DeskPhone_Beta_UCAPPSSE_795.COMPLETE      FAIL                          2018-09-09 00:56:22 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 2  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.5.1. UCAPPSSE_795_TC37(1)      COMPLETE      FAIL      2018-09-09 00:56:22 2018-09-09 00:56:22 2018-09-09 01:03:58 
+Error: Test case failure
+Info : java.lang.Exception: PickupCall Fail
+Error: Test case failure
+Info : java.lang.NullPointerException
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.1.5.2. UCAPPSSE_795_TC38(2)      COMPLETE      FAIL      2018-09-09 01:03:58 2018-09-09 01:03:58 2018-09-09 01:09:44 
+Error: Test case failure
+Info : java.lang.Exception: No incoming call to bridge on call-appearance 1
+----------------------------------------------------------------------------------------------------------------------
+2.1.6. Beta_UCAPPSSE_545_TMA_TestBeCOMPLETE      PASS                          2018-09-09 01:09:44 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.1.6.1. UCAPPSSE_545_TC53(1)      COMPLETE      PASS      2018-09-09 01:09:45 2018-09-09 01:09:44 2018-09-09 01:19:18 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2.2. Beta_DeskPhone_96xx_SIP.pkg   COMPLETE      FAIL                          2018-09-09 01:19:18 2018-09-09 19:13:49 
+
+            Passed : 11  ( 50  % )
+            Failed : 11  ( 50  % )
+           Not Run : 0  ( 0  % )
+             Total : 22
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.2.1. DeskPhone_Beta_SIP.pkg      COMPLETE      FAIL                          2018-09-09 01:19:18 2018-09-09 19:13:49 
+
+            Passed : 5  ( 41  % )
+            Failed : 7  ( 58  % )
+           Not Run : 0  ( 0  % )
+             Total : 12
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.2.1.1. UCAPPSSE_13_TC14(1)       COMPLETE      PASS      2018-09-09 01:19:18 2018-09-09 01:19:18 2018-09-09 01:24:33 
+2.2.1.2. UCAPPSSE_510_TC12(2)      COMPLETE      PASS      2018-09-09 01:24:33 2018-09-09 01:24:33 2018-09-09 01:30:39 
+2.2.1.3. UCAPPSSE_511_TC10(3)      COMPLETE      PASS      2018-09-09 01:30:39 2018-09-09 01:30:39 2018-09-09 01:36:21 
+2.2.1.4. UCAPPSSE_545_TC40(4)      COMPLETE      FAIL      2018-09-09 01:36:21 2018-09-09 01:36:21 2018-09-09 01:51:00 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;ConB on 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_SwitchToVOIPMode on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.151 is Fail
+2.2.1.5. UCAPPSSE_584_TC11(5)      COMPLETE      FAIL      2018-09-09 01:51:00 2018-09-09 01:51:00 2018-09-09 01:55:05 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_SwitchToVOIPMode on 10.102.1.151 is Fail
+2.2.1.6. UCAPPSSE_2857_TC13(6)     COMPLETE      PASS      2018-09-09 01:55:05 2018-09-09 01:55:05 2018-09-09 02:01:43 
+2.2.1.7. UCAPPSSE_545_TC7(7)       COMPLETE      PASS      2018-09-09 02:01:43 2018-09-09 02:01:43 2018-09-09 02:09:26 
+2.2.1.8. UCAPPSSE_545_TC12(8)      COMPLETE      FAIL      2018-09-09 02:09:26 2018-09-09 02:09:26 2018-09-09 02:29:23 
+Error: Test case failure
+Info : java.lang.Exception: VerifyContactStatusMessageInContactDetailView Fail
+2.2.1.9. UCAPPSSE_545_TC13(9)      COMPLETE      FAIL      2018-09-09 02:29:23 2018-09-09 02:29:23 2018-09-09 02:43:57 
+Error: Test case failure
+Info : java.lang.Exception: LeaveAllConversation Fail
+2.2.1.10. UCAPPSSE_545_TC15(10)    COMPLETE      FAIL      2018-09-09 02:43:57 2018-09-09 02:43:57 2018-09-09 02:51:05 
+Error: Test case failure
+Info : java.lang.Exception: CheckContactPresenceState;OneX00921 Hanoi;On a call on 10.102.1.176 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_ChangePresenceState;Automatic on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_SwitchToVOIPMode on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.151 is Fail
+2.2.1.11. UCAPPSSE_545_TC42(11)    COMPLETE      FAIL      2018-09-09 02:51:05 2018-09-09 02:51:05 2018-09-09 03:27:36 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;UCAPPSSE_545_TC42 on 10.128.224.51 is Fail
+2.2.1.12. UCAPPSSE_518_TC10(12)    COMPLETE      FAIL      2018-09-09 03:27:36 2018-09-09 03:27:36 2018-09-09 03:29:47 
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_SwitchToVOIPMode on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+----------------------------------------------------------------------------------------------------------------------
+2.2.2. DeskPhone_Beta_UCAPPSSE_518.COMPLETE      FAIL                          2018-09-09 03:29:47 2018-09-09 19:13:49 
+
+            Passed : 6  ( 66  % )
+            Failed : 3  ( 33  % )
+           Not Run : 0  ( 0  % )
+             Total : 9
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.2.2.1. UCAPPSSE_518_TC1(1)       COMPLETE      FAIL      2018-09-09 03:29:47 2018-09-09 03:29:47 2018-09-09 03:36:02 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACW30_SwitchToVOIPMode on 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.2.2.2. UCAPPSSE_518_TC2(2)       COMPLETE      PASS      2018-09-09 03:36:02 2018-09-09 03:36:02 2018-09-09 03:41:37 
+2.2.2.3. UCAPPSSE_518_TC3(3)       COMPLETE      PASS      2018-09-09 03:41:37 2018-09-09 03:41:37 2018-09-09 03:46:27 
+2.2.2.4. UCAPPSSE_518_TC4(4)       COMPLETE      PASS      2018-09-09 03:46:27 2018-09-09 03:46:27 2018-09-09 03:52:14 
+2.2.2.5. UCAPPSSE_518_TC5(5)       COMPLETE      FAIL      2018-09-09 03:52:14 2018-09-09 03:52:14 2018-09-09 04:00:26 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;UCAPPSSE_518_TC5 on 10.128.224.51 is Fail
+2.2.2.6. UCAPPSSE_518_TC6(6)       COMPLETE      PASS      2018-09-09 04:00:26 2018-09-09 04:00:26 2018-09-09 04:07:07 
+2.2.2.7. UCAPPSSE_518_TC7(7)       COMPLETE      PASS      2018-09-09 04:07:07 2018-09-09 04:07:07 2018-09-09 04:13:31 
+2.2.2.8. UCAPPSSE_518_TC8(8)       COMPLETE      PASS      2018-09-09 04:13:31 2018-09-09 04:13:31 2018-09-09 04:20:20 
+2.2.2.9. UCAPPSSE_518_TC9(9)       COMPLETE      FAIL      2018-09-09 04:20:20 2018-09-09 04:20:20 2018-09-09 04:37:09 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_CheckContactPresenceState;OneX00921 Hanoi;Away on 10.102.1.151 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.2.3. DeskPhone_Beta_UCAPPSSE_520.COMPLETE      FAIL                          2018-09-09 04:37:09 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 1  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.2.3.1. UCAPPSSE_520_TC1(1)       COMPLETE      FAIL      2018-09-09 04:37:09 2018-09-09 04:37:09 2018-09-09 04:42:26 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2.3. Beta_OneXC_H323.pkg           COMPLETE      FAIL                          2018-09-09 04:42:26 2018-09-09 19:13:49 
+
+            Passed : 11  ( 84  % )
+            Failed : 2  ( 15  % )
+           Not Run : 0  ( 0  % )
+             Total : 13
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.3.1. OneXC_Beta_UCAPPSSE_163.pkg COMPLETE      FAIL                          2018-09-09 04:42:26 2018-09-09 19:13:49 
+
+            Passed : 11  ( 84  % )
+            Failed : 2  ( 15  % )
+           Not Run : 0  ( 0  % )
+             Total : 13
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.3.1.1. Config_1XC_H323(1)        COMPLETE      PASS      2018-09-09 04:42:26 2018-09-09 04:42:26 2018-09-09 04:43:17 
+2.3.1.2. UCAPPSSE_163_TC1(2)       COMPLETE      FAIL      2018-09-09 04:43:17 2018-09-09 04:43:17 2018-09-09 04:49:28 
+Error: Test case failure
+Info : java.lang.Exception: AnswerCallWithAudio;1 on 10.102.1.176 is Fail
+2.3.1.3. UCAPPSSE_163_TC2(3)       COMPLETE      FAIL      2018-09-09 04:49:28 2018-09-09 04:49:28 2018-09-09 04:56:05 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_AnswerAudioCall;1 on 10.128.224.51 is Fail
+2.3.1.4. UCAPPSSE_163_TC3(4)       COMPLETE      PASS      2018-09-09 04:56:05 2018-09-09 04:56:05 2018-09-09 05:01:44 
+2.3.1.5. UCAPPSSE_163_TC4(5)       COMPLETE      PASS      2018-09-09 05:01:44 2018-09-09 05:01:44 2018-09-09 05:07:22 
+2.3.1.6. UCAPPSSE_163_TC5(6)       COMPLETE      PASS      2018-09-09 05:07:22 2018-09-09 05:07:22 2018-09-09 05:11:45 
+2.3.1.7. UCAPPSSE_163_TC6(7)       COMPLETE      PASS      2018-09-09 05:11:45 2018-09-09 05:11:45 2018-09-09 05:16:39 
+2.3.1.8. UCAPPSSE_163_TC7(8)       COMPLETE      PASS      2018-09-09 05:16:39 2018-09-09 05:16:39 2018-09-09 05:21:26 
+2.3.1.9. UCAPPSSE_163_TC9(9)       COMPLETE      PASS      2018-09-09 05:21:26 2018-09-09 05:21:26 2018-09-09 05:26:01 
+2.3.1.10. UCAPPSSE_163_TC10(10)    COMPLETE      PASS      2018-09-09 05:26:01 2018-09-09 05:26:01 2018-09-09 05:31:29 
+2.3.1.11. UCAPPSSE_163_TC14(11)    COMPLETE      PASS      2018-09-09 05:31:29 2018-09-09 05:31:29 2018-09-09 05:36:57 
+2.3.1.12. UCAPPSSE_163_TC28(12)    COMPLETE      PASS      2018-09-09 05:36:57 2018-09-09 05:36:57 2018-09-09 05:41:07 
+2.3.1.13. UCAPPSSE_163_TC30(13)    COMPLETE      PASS      2018-09-09 05:41:07 2018-09-09 05:41:07 2018-09-09 05:46:22 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2.4. Beta_Regression_CI_Suite_TestBCOMPLETE      FAIL                          2018-09-09 05:46:22 2018-09-09 19:13:49 
+
+            Passed : 35  ( 46  % )
+            Failed : 41  ( 53  % )
+           Not Run : 0  ( 0  % )
+             Total : 76
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.1. Beta_UCAPPSSE_813_TestBed1.pCOMPLETE      FAIL                          2018-09-09 05:46:22 2018-09-09 19:13:49 
+
+            Passed : 1  ( 16  % )
+            Failed : 5  ( 83  % )
+           Not Run : 0  ( 0  % )
+             Total : 6
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.1.1. UCAPPSSE_813_TC1(1)       COMPLETE      FAIL      2018-09-09 05:46:22 2018-09-09 05:46:22 2018-09-09 05:49:12 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.1.2. UCAPPSSE_813_TC2(2)       COMPLETE      PASS      2018-09-09 05:49:12 2018-09-09 05:49:12 2018-09-09 06:02:02 
+2.4.1.3. UCAPPSSE_813_TC4(3)       COMPLETE      FAIL      2018-09-09 06:02:02 2018-09-09 06:02:02 2018-09-09 06:05:55 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.1.4. UCAPPSSE_813_TC14(4)      COMPLETE      FAIL      2018-09-09 06:05:55 2018-09-09 06:05:55 2018-09-09 06:06:28 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_813_TC14;_09-Sep-18_06-06-07_799_AM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: Cleanup on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.1.5. UCAPPSSE_813_TC23(5)      COMPLETE      FAIL      2018-09-09 06:06:28 2018-09-09 06:06:28 2018-09-09 06:07:01 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.1.6. UCAPPSSE_813_TC32(6)      COMPLETE      FAIL      2018-09-09 06:07:01 2018-09-09 06:07:01 2018-09-09 06:07:32 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_813_TC32;_09-Sep-18_06-07-12_509_AM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: Cleanup on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+----------------------------------------------------------------------------------------------------------------------
+2.4.2. Beta_UCAPPSSE_2751.pkg      COMPLETE      FAIL                          2018-09-09 06:07:32 2018-09-09 19:13:49 
+
+            Passed : 11  ( 52  % )
+            Failed : 10  ( 47  % )
+           Not Run : 0  ( 0  % )
+             Total : 21
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.2.1. UCAPPSSE_2751_TC16(1)     COMPLETE      PASS      2018-09-09 06:07:32 2018-09-09 06:07:32 2018-09-09 06:13:21 
+2.4.2.2. UCAPPSSE_2751_TC17(2)     COMPLETE      PASS      2018-09-09 06:13:21 2018-09-09 06:13:21 2018-09-09 06:20:44 
+2.4.2.3. UCAPPSSE_2751_TC3(3)      COMPLETE      FAIL      2018-09-09 06:20:44 2018-09-09 06:20:44 2018-09-09 06:28:56 
+Error: Test case failure
+Info : java.lang.Exception: SendIMsFromContactDetails Fail
+2.4.2.4. UCAPPSSE_2751_TC11(4)     COMPLETE      FAIL      2018-09-09 06:28:56 2018-09-09 06:28:56 2018-09-09 06:36:30 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;ConA on 10.128.224.51 is Fail
+2.4.2.5. UCAPPSSE_2751_TC13(5)     COMPLETE      PASS      2018-09-09 06:36:30 2018-09-09 06:36:30 2018-09-09 06:42:32 
+2.4.2.6. UCAPPSSE_2751_TC14(6)     COMPLETE      PASS      2018-09-09 06:42:32 2018-09-09 06:42:32 2018-09-09 06:47:35 
+2.4.2.7. UCAPPSSE_2751_TC15(7)     COMPLETE      PASS      2018-09-09 06:47:35 2018-09-09 06:47:35 2018-09-09 06:53:50 
+2.4.2.8. UCAPPSSE_2751_TC28(8)     COMPLETE      PASS      2018-09-09 06:53:50 2018-09-09 06:53:50 2018-09-09 06:58:53 
+2.4.2.9. UCAPPSSE_2751_TC2(9)      COMPLETE      PASS      2018-09-09 06:58:53 2018-09-09 06:58:53 2018-09-09 07:03:22 
+2.4.2.10. UCAPPSSE_2751_TC5(10)    COMPLETE      FAIL      2018-09-09 07:03:22 2018-09-09 07:03:22 2018-09-09 07:09:23 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00901 Hanoi;UCAPPSSE_2751_TC5;Hello;ldap on 10.128.224.51 is Fail
+2.4.2.11. UCAPPSSE_2751_TC6(11)    COMPLETE      FAIL      2018-09-09 07:09:23 2018-09-09 07:09:23 2018-09-09 07:15:17 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;UCAPPSSE_2751_TC6 on 10.128.224.51 is Fail
+2.4.2.12. UCAPPSSE_2751_TC7(12)    COMPLETE      FAIL      2018-09-09 07:15:17 2018-09-09 07:15:17 2018-09-09 07:22:07 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00815 Hanoi;UCAPPSSE_2751_TC7;Hello;ldap on 10.128.224.51 is Fail
+2.4.2.13. UCAPPSSE_2751_TC8(13)    COMPLETE      FAIL      2018-09-09 07:22:07 2018-09-09 07:22:07 2018-09-09 07:27:27 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;UCAPPSSE_2751_TC8 on 10.128.224.51 is Fail
+2.4.2.14. UCAPPSSE_2751_TC9(14)    COMPLETE      FAIL      2018-09-09 07:27:27 2018-09-09 07:27:27 2018-09-09 07:33:44 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00901 Hanoi;UCAPPSSE_2751_TC9;Hello;ldap on 10.128.224.51 is Fail
+2.4.2.15. UCAPPSSE_2751_TC10(15)   COMPLETE      FAIL      2018-09-09 07:33:44 2018-09-09 07:33:44 2018-09-09 07:40:29 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;UCAPPSSE_2751_TC10 on 10.128.224.51 is Fail
+2.4.2.16. UCAPPSSE_2751_TC12(16)   COMPLETE      PASS      2018-09-09 07:40:29 2018-09-09 07:40:29 2018-09-09 07:45:13 
+2.4.2.17. UCAPPSSE_2751_TC23(17)   COMPLETE      PASS      2018-09-09 07:45:13 2018-09-09 07:45:13 2018-09-09 07:49:18 
+2.4.2.18. UCAPPSSE_2751_TC24(18)   COMPLETE      FAIL      2018-09-09 07:49:18 2018-09-09 07:49:18 2018-09-09 07:56:17 
+Error: Test case failure
+Info : java.lang.Exception: VerifyCallLog Fail
+2.4.2.19. UCAPPSSE_2751_TC25(19)   COMPLETE      FAIL      2018-09-09 07:56:17 2018-09-09 07:56:17 2018-09-09 08:02:48 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_VerifyContactPictureOnCallAppearance;user1Image on 10.128.224.51 is Fail
+2.4.2.20. UCAPPSSE_2751_TC27(20)   COMPLETE      PASS      2018-09-09 08:02:48 2018-09-09 08:02:48 2018-09-09 08:10:47 
+2.4.2.21. UCAPPSSE_2751_TC29(21)   COMPLETE      PASS      2018-09-09 08:10:47 2018-09-09 08:10:47 2018-09-09 08:18:44 
+----------------------------------------------------------------------------------------------------------------------
+2.4.3. Beta_UCAPPSSE_2745.pkg      COMPLETE      PASS                          2018-09-09 08:18:44 2018-09-09 19:13:49 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.3.1. UCAPPSSE_2745_TC3(1)      COMPLETE      PASS      2018-09-09 08:18:44 2018-09-09 08:18:44 2018-09-09 08:23:46 
+2.4.3.2. UCAPPSSE_2745_TC7(2)      COMPLETE      PASS      2018-09-09 08:23:46 2018-09-09 08:23:46 2018-09-09 08:28:48 
+2.4.3.3. UCAPPSSE_2745_TC9(3)      COMPLETE      PASS      2018-09-09 08:28:48 2018-09-09 08:28:48 2018-09-09 08:35:03 
+----------------------------------------------------------------------------------------------------------------------
+2.4.4. Beta_UCAPPSSE_2752.pkg      COMPLETE      PASS                          2018-09-09 08:35:03 2018-09-09 19:13:49 
+
+            Passed : 5  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.4.1. UCAPPSSE_2752_TC13(1)     COMPLETE      PASS      2018-09-09 08:35:03 2018-09-09 08:35:03 2018-09-09 08:39:08 
+2.4.4.2. UCAPPSSE_2752_TC15(2)     COMPLETE      PASS      2018-09-09 08:39:08 2018-09-09 08:39:08 2018-09-09 08:46:26 
+2.4.4.3. UCAPPSSE_2752_TC17(3)     COMPLETE      PASS      2018-09-09 08:46:26 2018-09-09 08:46:26 2018-09-09 08:51:43 
+2.4.4.4. UCAPPSSE_2752_TC19(4)     COMPLETE      PASS      2018-09-09 08:51:43 2018-09-09 08:51:43 2018-09-09 08:58:55 
+2.4.4.5. UCAPPSSE_2752_TC20(5)     COMPLETE      PASS      2018-09-09 08:58:55 2018-09-09 08:58:55 2018-09-09 09:03:53 
+----------------------------------------------------------------------------------------------------------------------
+2.4.5. Beta_UCAPPSSE_501_TestBed1.pCOMPLETE      FAIL                          2018-09-09 09:03:53 2018-09-09 19:13:49 
+
+            Passed : 3  ( 75  % )
+            Failed : 1  ( 25  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.5.1. UCAPPSSE_501_TC3(1)       COMPLETE      PASS      2018-09-09 09:03:53 2018-09-09 09:03:53 2018-09-09 09:17:54 
+2.4.5.2. UCAPPSSE_501_TC13(2)      COMPLETE      PASS      2018-09-09 09:17:54 2018-09-09 09:17:54 2018-09-09 09:25:37 
+2.4.5.3. UCAPPSSE_501_TC11(3)      COMPLETE      FAIL      2018-09-09 09:25:37 2018-09-09 09:25:37 2018-09-09 09:31:58 
+Error: Test case failure
+Info : java.lang.Exception: JoinScopiaConferenceAsTEModeWithPOM;namedUser;OneX00902;7984449900900;https://esg3202.tma.com.vn:8443/portal/tenants/default/;900;audiovideo; on 10.102.1.176 is Fail
+2.4.5.4. UCAPPSSE_501_TC15(4)      COMPLETE      PASS      2018-09-09 09:31:58 2018-09-09 09:31:58 2018-09-09 09:39:31 
+----------------------------------------------------------------------------------------------------------------------
+2.4.6. Beta_UCAPPSSE_2741.pkg      COMPLETE      FAIL                          2018-09-09 09:39:31 2018-09-09 19:13:49 
+
+            Passed : 1  ( 16  % )
+            Failed : 5  ( 83  % )
+           Not Run : 0  ( 0  % )
+             Total : 6
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.6.1. UCAPPSSE_2741_TC3(1)      COMPLETE      FAIL      2018-09-09 09:39:31 2018-09-09 09:39:31 2018-09-09 09:44:22 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_JoinScopiaConferenceFromWebPortal;namedUser;;;https://esg3202.tma.com.vn:8443/portal/tenants/default/;audioVideoPresentation; on 10.128.224.51 is Fail
+2.4.6.2. UCAPPSSE_2741_TC4(2)      COMPLETE      PASS      2018-09-09 09:44:22 2018-09-09 09:44:22 2018-09-09 09:49:59 
+2.4.6.3. UCAPPSSE_2741_TC6(3)      COMPLETE      FAIL      2018-09-09 09:49:59 2018-09-09 09:49:59 2018-09-09 09:57:18 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_JoinScopiaConferenceFromWebPortal;namedUser;;7984449900901;https://esg3202.tma.com.vn:8443/portal/tenants/default/;audioVideoPresentation;901 on 10.128.224.51 is Fail
+2.4.6.4. UCAPPSSE_2741_TC7(4)      COMPLETE      FAIL      2018-09-09 09:57:18 2018-09-09 09:57:18 2018-09-09 10:03:38 
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread is timeout after 5 minute(s) 
+2.4.6.5. UCAPPSSE_2741_TC9(5)      COMPLETE      FAIL      2018-09-09 10:03:38 2018-09-09 10:03:38 2018-09-09 10:07:51 
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.6.6. UCAPPSSE_2741_TC10(6)     COMPLETE      FAIL      2018-09-09 10:07:51 2018-09-09 10:07:51 2018-09-09 10:20:14 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_JoinScopiaConferenceFromWebPortal;namedUser;;;https://esg3202.tma.com.vn:8443/portal/tenants/default/;audioVideoPresentation; on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2741_TC10;_09-Sep-18_10-12-21_510_AM on 10.102.1.151 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.4.7. Beta_TMA_UCAPPSSE_2747.pkg  COMPLETE      PASS                          2018-09-09 10:20:14 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.7.1. UCAPPSSE_2747_TC20(1)     COMPLETE      PASS      2018-09-09 10:20:14 2018-09-09 10:20:14 2018-09-09 10:24:31 
+----------------------------------------------------------------------------------------------------------------------
+2.4.8. Beta_UCAPPSSE_2842.pkg      COMPLETE      PASS                          2018-09-09 10:24:31 2018-09-09 19:13:49 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.8.1. UCAPPSSE_2842_TC1(1)      COMPLETE      PASS      2018-09-09 10:24:31 2018-09-09 10:24:31 2018-09-09 10:28:26 
+2.4.8.2. UCAPPSSE_2842_TC4(2)      COMPLETE      PASS      2018-09-09 10:28:26 2018-09-09 10:28:26 2018-09-09 10:31:21 
+2.4.8.3. UCAPPSSE_2842_TC5(3)      COMPLETE      PASS      2018-09-09 10:31:21 2018-09-09 10:31:21 2018-09-09 10:36:36 
+----------------------------------------------------------------------------------------------------------------------
+2.4.9. Beta_UCAPPSSE_813_APS.pkg   COMPLETE      FAIL                          2018-09-09 10:36:37 2018-09-09 19:13:49 
+
+            Passed : 4  ( 19  % )
+            Failed : 17  ( 80  % )
+           Not Run : 0  ( 0  % )
+             Total : 21
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.9.1. UCAPPSSE_813_TC8(1)       COMPLETE      PASS      2018-09-09 10:36:37 2018-09-09 10:36:37 2018-09-09 10:43:06 
+2.4.9.2. UCAPPSSE_813_TC9(2)       COMPLETE      FAIL      2018-09-09 10:43:06 2018-09-09 10:43:06 2018-09-09 10:53:30 
+Error: Test case failure
+Info : java.lang.Exception: OneX_OpenHyperlink;OneX00900 Hanoi, OneX00903 Hanoi, OneX00901 Hanoi on 10.102.1.191 is Fail
+2.4.9.3. UCAPPSSE_813_TC10(3)      COMPLETE      FAIL      2018-09-09 10:53:30 2018-09-09 10:53:30 2018-09-09 11:06:15 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;2nd on 10.128.224.51 is Fail
+2.4.9.4. UCAPPSSE_813_TC15(4)      COMPLETE      PASS      2018-09-09 11:06:15 2018-09-09 11:06:15 2018-09-09 11:14:32 
+2.4.9.5. UCAPPSSE_813_TC16(5)      COMPLETE      FAIL      2018-09-09 11:14:32 2018-09-09 11:14:32 2018-09-09 11:19:53 
+Error: Test case failure
+Info : java.lang.Exception: OpenConversation;OneX00881 Hanoi on 10.102.1.176 is Fail
+2.4.9.6. UCAPPSSE_813_TC17(6)      COMPLETE      FAIL      2018-09-09 11:19:53 2018-09-09 11:19:53 2018-09-09 11:26:09 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00901 Hanoi;UCAPPSSE_813_TC17;initiate msg;Ldap on 10.128.224.51 is Fail
+2.4.9.7. UCAPPSSE_813_TC19(7)      COMPLETE      FAIL      2018-09-09 11:26:09 2018-09-09 11:26:09 2018-09-09 11:41:29 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_OpenAttachment;OneX00901;Audio on 10.102.1.151 is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_813_TC19;_09-Sep-18_11-33-26_641_AM on 10.102.1.151 is Fail
+2.4.9.8. UCAPPSSE_813_TC70(8)      COMPLETE      FAIL      2018-09-09 11:41:29 2018-09-09 11:41:29 2018-09-09 11:47:38 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00881 Hanoi;UCAPPSSE_813_TC70;initiate msg;Ldap on 10.128.224.51 is Fail
+2.4.9.9. UCAPPSSE_813_TC71(9)      COMPLETE      FAIL      2018-09-09 11:47:38 2018-09-09 11:47:38 2018-09-09 11:52:14 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_OpenConversation;OneX00881 Hanoi on 10.102.1.151 is Fail
+2.4.9.10. UCAPPSSE_813_TC72(10)    COMPLETE      FAIL      2018-09-09 11:52:14 2018-09-09 11:52:14 2018-09-09 11:58:50 
+Error: Test case failure
+Info : java.lang.Exception: OneX_OpenAttachment;OneX00900 Hanoi;Audio;hanoi.onex00881;A123456a on 10.102.1.191 is Fail
+2.4.9.11. UCAPPSSE_813_TC20(11)    COMPLETE      FAIL      2018-09-09 11:58:50 2018-09-09 11:58:50 2018-09-09 12:11:28 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;2nd conference on 10.128.224.51 is Fail
+2.4.9.12. UCAPPSSE_813_TC22(12)    COMPLETE      FAIL      2018-09-09 12:11:28 2018-09-09 12:11:28 2018-09-09 12:18:33 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;New Conversation on 10.128.224.51 is Fail
+2.4.9.13. UCAPPSSE_813_TC25(13)    COMPLETE      FAIL      2018-09-09 12:18:33 2018-09-09 12:18:33 2018-09-09 12:27:48 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenAttachment;OneX00900;Video on 10.128.224.51 is Fail
+2.4.9.14. UCAPPSSE_813_TC28(14)    COMPLETE      PASS      2018-09-09 12:27:48 2018-09-09 12:27:48 2018-09-09 12:38:06 
+2.4.9.15. UCAPPSSE_813_TC29(15)    COMPLETE      FAIL      2018-09-09 12:38:06 2018-09-09 12:38:06 2018-09-09 12:49:05 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;Conversation B on 10.128.224.51 is Fail
+2.4.9.16. UCAPPSSE_813_TC31(16)    COMPLETE      FAIL      2018-09-09 12:49:05 2018-09-09 12:49:05 2018-09-09 13:00:41 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_AddTextToAMM;overMaximum on 10.102.1.151 is Fail
+2.4.9.17. UCAPPSSE_813_TC34(17)    COMPLETE      FAIL      2018-09-09 13:00:41 2018-09-09 13:00:41 2018-09-09 13:06:19 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_OpenConversation;OneX00881 Hanoi on 10.128.224.51 is Fail
+2.4.9.18. UCAPPSSE_813_TC37(18)    COMPLETE      FAIL      2018-09-09 13:06:19 2018-09-09 13:06:19 2018-09-09 13:17:56 
+Error: Test case failure
+Info : java.lang.Exception: OpenAttachment Fail
+2.4.9.19. UCAPPSSE_813_TC38(19)    COMPLETE      FAIL      2018-09-09 13:17:56 2018-09-09 13:17:56 2018-09-09 13:30:48 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_InitiateAMMFromSearchedContact;OneX00881 Hanoi;Conversation C;Hi userC;LDAP on 10.128.224.51 is Fail
+2.4.9.20. UCAPPSSE_813_TC40(20)    COMPLETE      PASS      2018-09-09 13:30:48 2018-09-09 13:30:48 2018-09-09 13:37:58 
+2.4.9.21. UCAPPSSE_813_TC43(21)    COMPLETE      FAIL      2018-09-09 13:37:58 2018-09-09 13:37:58 2018-09-09 13:50:32 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.4.10. Beta_UCAPPSSE_2926_TMATestBCOMPLETE      FAIL                          2018-09-09 13:50:32 2018-09-09 19:13:49 
+
+            Passed : 3  ( 50  % )
+            Failed : 3  ( 50  % )
+           Not Run : 0  ( 0  % )
+             Total : 6
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.4.10.1. UCAPPSSE_2926_TC8A(1)    COMPLETE      FAIL      2018-09-09 13:50:32 2018-09-09 13:50:32 2018-09-09 13:52:25 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+2.4.10.2. UCAPPSSE_2926_TC8B(2)    COMPLETE      FAIL      2018-09-09 13:52:25 2018-09-09 13:52:25 2018-09-09 13:58:05 
+Error: Test case failure
+Info : java.lang.Exception: ClearHistory; on 10.102.1.176 is Fail
+2.4.10.3. UCAPPSSE_2926_TC8C(3)    COMPLETE      FAIL      2018-09-09 13:58:05 2018-09-09 13:58:05 2018-09-09 13:58:20 
+Error: Test case failure
+Info : java.lang.Exception: Cannot connect to 10.102.1.184
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2926_TC8C;_09-Sep-18_01-58-18_951_PM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: TakeScreenshotDesktop;UCAPPSSE_2926_TC8C;_09-Sep-18_01-58-18_978_PM on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACW30_CleanUp on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: ACM30_CleanUp on null is Fail
+Error: Test case failure
+Info : java.lang.Exception: verifyStatusThread Fail
+2.4.10.4. UCAPPSSE_2926_TC19A(4)   COMPLETE      PASS      2018-09-09 13:58:20 2018-09-09 13:58:20 2018-09-09 14:04:56 
+2.4.10.5. UCAPPSSE_2926_TC19B(5)   COMPLETE      PASS      2018-09-09 14:04:56 2018-09-09 14:04:56 2018-09-09 14:11:51 
+2.4.10.6. UCAPPSSE_2926_TC19C(6)   COMPLETE      PASS      2018-09-09 14:11:51 2018-09-09 14:11:51 2018-09-09 14:18:37 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2.5. Beta_Outlook_TestBed1.pkg     COMPLETE      FAIL                          2018-09-09 14:18:37 2018-09-09 19:13:49 
+
+            Passed : 2  ( 40  % )
+            Failed : 3  ( 60  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.5.1. Beta_UCAPM_1342.pkg         COMPLETE      FAIL                          2018-09-09 14:18:37 2018-09-09 19:13:49 
+
+            Passed : 2  ( 40  % )
+            Failed : 3  ( 60  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.5.1.1. UCAPM_1342_TC2(1)         COMPLETE      PASS      2018-09-09 14:18:37 2018-09-09 14:18:37 2018-09-09 14:27:19 
+2.5.1.2. UCAPM_1342_TC3(2)         COMPLETE      FAIL      2018-09-09 14:27:19 2018-09-09 14:27:19 2018-09-09 14:32:34 
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.5.1.3. UCAPM_1342_TC6(3)         COMPLETE      PASS      2018-09-09 14:32:34 2018-09-09 14:32:34 2018-09-09 14:49:52 
+2.5.1.4. UCAPM_1342_TC8(4)         COMPLETE      FAIL      2018-09-09 14:49:52 2018-09-09 14:49:52 2018-09-09 14:58:47 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_AddReceiversToEmailOutlook;hanoi.onex00901@tma.com.vn>>hanoi.onex00902@tma.com.vn;toList on 10.128.224.51 is Fail
+2.5.1.5. UCAPM_1342_TC9(5)         COMPLETE      FAIL      2018-09-09 14:58:47 2018-09-09 14:58:47 2018-09-09 15:05:22 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_AddReceiversToEmailOutlook;hanoi.onex00901@tma.com.vn>>hanoi.onex00931@tma.com.vn;toList on 10.128.224.51 is Fail
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+2.6. Beta_Meetme_TestBed1.pkg      COMPLETE      FAIL                          2018-09-09 15:05:22 2018-09-09 19:13:49 
+
+            Passed : 32  ( 78  % )
+            Failed : 9  ( 21  % )
+           Not Run : 0  ( 0  % )
+             Total : 41
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.1. Configuration.pkg           COMPLETE      PASS                          2018-09-09 15:05:22 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.1.1. Configuration(1)          COMPLETE      PASS      2018-09-09 15:05:22 2018-09-09 15:05:22 2018-09-09 15:07:57 
+----------------------------------------------------------------------------------------------------------------------
+2.6.2. Beta_Meetme_UCAPPSSE_2750.pkCOMPLETE      FAIL                          2018-09-09 15:07:57 2018-09-09 19:13:49 
+
+            Passed : 20  ( 83  % )
+            Failed : 4  ( 16  % )
+           Not Run : 0  ( 0  % )
+             Total : 24
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.2.1. UCAPPSSE_2750_TC2(1)      COMPLETE      PASS      2018-09-09 15:07:57 2018-09-09 15:07:57 2018-09-09 15:15:03 
+2.6.2.2. UCAPPSSE_2750_TC3(2)      COMPLETE      PASS      2018-09-09 15:15:03 2018-09-09 15:15:03 2018-09-09 15:23:14 
+2.6.2.3. UCAPPSSE_2750_TC4(3)      COMPLETE      PASS      2018-09-09 15:23:14 2018-09-09 15:23:14 2018-09-09 15:28:44 
+2.6.2.4. UCAPPSSE_2750_TC6(4)      COMPLETE      PASS      2018-09-09 15:28:44 2018-09-09 15:28:44 2018-09-09 15:36:52 
+2.6.2.5. UCAPPSSE_2750_TC17(5)     COMPLETE      PASS      2018-09-09 15:36:52 2018-09-09 15:36:52 2018-09-09 15:42:43 
+2.6.2.6. UCAPPSSE_2750_TC18(6)     COMPLETE      PASS      2018-09-09 15:42:43 2018-09-09 15:42:43 2018-09-09 15:47:13 
+2.6.2.7. UCAPPSSE_2750_TC19(7)     COMPLETE      PASS      2018-09-09 15:47:13 2018-09-09 15:47:13 2018-09-09 15:53:30 
+2.6.2.8. UCAPPSSE_2750_TC20(8)     COMPLETE      PASS      2018-09-09 15:53:30 2018-09-09 15:53:30 2018-09-09 15:57:59 
+2.6.2.9. UCAPPSSE_2750_TC21(9)     COMPLETE      PASS      2018-09-09 15:58:00 2018-09-09 15:57:59 2018-09-09 16:01:47 
+2.6.2.10. UCAPPSSE_2750_TC58(10)   COMPLETE      FAIL      2018-09-09 16:01:47 2018-09-09 16:01:47 2018-09-09 16:12:14 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_EndCall;1 on 10.128.224.51 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.128.224.51 is Fail
+2.6.2.11. UCAPPSSE_2750_TC59(11)   COMPLETE      FAIL      2018-09-09 16:12:15 2018-09-09 16:12:14 2018-09-09 16:17:34 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_VerifyLecturer;2;yes on 10.128.224.51 is Fail
+2.6.2.12. UCAPPSSE_2750_TC65(12)   COMPLETE      FAIL      2018-09-09 16:17:34 2018-09-09 16:17:34 2018-09-09 16:23:03 
+Error: Test case failure
+Info : java.lang.Exception: BecomeModerator;00900 on 10.102.1.176 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.176 is Fail
+2.6.2.13. UCAPPSSE_2750_TC74(13)   COMPLETE      PASS      2018-09-09 16:23:03 2018-09-09 16:23:03 2018-09-09 16:30:00 
+2.6.2.14. UCAPPSSE_2750_TC75(14)   COMPLETE      PASS      2018-09-09 16:30:00 2018-09-09 16:30:00 2018-09-09 16:39:00 
+2.6.2.15. UCAPPSSE_2750_TC76(15)   COMPLETE      PASS      2018-09-09 16:39:00 2018-09-09 16:39:00 2018-09-09 16:44:47 
+2.6.2.16. UCAPPSSE_2750_TC5(16)    COMPLETE      PASS      2018-09-09 16:44:47 2018-09-09 16:44:47 2018-09-09 16:50:17 
+2.6.2.17. UCAPPSSE_2750_TC12(17)   COMPLETE      PASS      2018-09-09 16:50:17 2018-09-09 16:50:17 2018-09-09 17:01:39 
+2.6.2.18. UCAPPSSE_2750_TC11(18)   COMPLETE      PASS      2018-09-09 17:01:39 2018-09-09 17:01:39 2018-09-09 17:07:33 
+2.6.2.19. UCAPPSSE_2750_TC13(19)   COMPLETE      PASS      2018-09-09 17:07:33 2018-09-09 17:07:33 2018-09-09 17:13:15 
+2.6.2.20. UCAPPSSE_2750_TC92(20)   COMPLETE      PASS      2018-09-09 17:13:15 2018-09-09 17:13:15 2018-09-09 17:20:26 
+2.6.2.21. UCAPPSSE_2750_TC95(21)   COMPLETE      PASS      2018-09-09 17:20:26 2018-09-09 17:20:26 2018-09-09 17:26:43 
+2.6.2.22. UCAPPSSE_2750_TC98(22)   COMPLETE      PASS      2018-09-09 17:26:43 2018-09-09 17:26:43 2018-09-09 17:31:47 
+2.6.2.23. UCAPPSSE_2750_TC80(23)   COMPLETE      PASS      2018-09-09 17:31:47 2018-09-09 17:31:47 2018-09-09 17:37:53 
+2.6.2.24. UCAPPSSE_2750_TC81(24)   COMPLETE      FAIL      2018-09-09 17:37:53 2018-09-09 17:37:53 2018-09-09 17:42:32 
+Error: Test case failure
+Info : java.lang.Exception: MuteParticipant;1;Video on 10.102.1.176 is Fail
+Error: Test case failure
+Info : java.lang.Exception: 10.102.1.176 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.6.3. Beta_Meetme_UCAPPSSE_2744.pkCOMPLETE      PASS                          2018-09-09 17:42:32 2018-09-09 19:13:49 
+
+            Passed : 3  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 3
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.3.1. UCAPPSSE_2744_TC1(1)      COMPLETE      PASS      2018-09-09 17:42:32 2018-09-09 17:42:32 2018-09-09 17:47:49 
+2.6.3.2. UCAPPSSE_2744_TC2(2)      COMPLETE      PASS      2018-09-09 17:47:49 2018-09-09 17:47:49 2018-09-09 17:53:48 
+2.6.3.3. UCAPPSSE_2744_TC9(3)      COMPLETE      PASS      2018-09-09 17:53:48 2018-09-09 17:53:48 2018-09-09 18:02:33 
+----------------------------------------------------------------------------------------------------------------------
+2.6.4. Beta_Meetme_UCAPPSSE_2745.pkCOMPLETE      PASS                          2018-09-09 18:02:33 2018-09-09 19:13:49 
+
+            Passed : 1  ( 100  % )
+            Failed : 0  ( 0  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.4.1. UCAPPSSE_2745_TC4(1)      COMPLETE      PASS      2018-09-09 18:02:33 2018-09-09 18:02:33 2018-09-09 18:07:03 
+----------------------------------------------------------------------------------------------------------------------
+2.6.5. Beta_Meetme_UCAPPSSE_2752.pkCOMPLETE      FAIL                          2018-09-09 18:07:03 2018-09-09 19:13:49 
+
+            Passed : 3  ( 60  % )
+            Failed : 2  ( 40  % )
+           Not Run : 0  ( 0  % )
+             Total : 5
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.5.1. UCAPPSSE_2752_TC14(1)     COMPLETE      FAIL      2018-09-09 18:07:03 2018-09-09 18:07:03 2018-09-09 18:13:47 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_DropConference on 10.102.1.151 is Fail
+2.6.5.2. UCAPPSSE_2752_TC16(2)     COMPLETE      FAIL      2018-09-09 18:13:47 2018-09-09 18:13:47 2018-09-09 18:19:06 
+Error: Test case failure
+Info : java.lang.Exception: VerifyCamera Fail
+2.6.5.3. UCAPPSSE_2752_TC18(3)     COMPLETE      PASS      2018-09-09 18:19:06 2018-09-09 18:19:06 2018-09-09 18:25:54 
+2.6.5.4. UCAPPSSE_2752_TC7(4)      COMPLETE      PASS      2018-09-09 18:25:54 2018-09-09 18:25:54 2018-09-09 18:30:56 
+2.6.5.5. UCAPPSSE_2752_TC9(5)      COMPLETE      PASS      2018-09-09 18:30:56 2018-09-09 18:30:56 2018-09-09 18:38:37 
+----------------------------------------------------------------------------------------------------------------------
+2.6.6. Beta_Meetme_UCAPPSSE_2741.pkCOMPLETE      FAIL                          2018-09-09 18:38:37 2018-09-09 19:13:49 
+
+            Passed : 3  ( 75  % )
+            Failed : 1  ( 25  % )
+           Not Run : 0  ( 0  % )
+             Total : 4
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.6.1. UCAPPSSE_2741_TC1(1)      COMPLETE      PASS      2018-09-09 18:38:37 2018-09-09 18:38:37 2018-09-09 18:42:41 
+2.6.6.2. UCAPPSSE_2741_TC2(2)      COMPLETE      PASS      2018-09-09 18:42:41 2018-09-09 18:42:41 2018-09-09 18:49:38 
+2.6.6.3. UCAPPSSE_2741_TC5(3)      COMPLETE      PASS      2018-09-09 18:49:38 2018-09-09 18:49:38 2018-09-09 18:55:37 
+2.6.6.4. UCAPPSSE_2741_TC8(4)      COMPLETE      FAIL      2018-09-09 18:55:37 2018-09-09 18:55:37 2018-09-09 18:58:40 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_JoinScopiaConferenceFromWebPortal;namedUser;;;https://softclient-auto-iview.hcm.com/portal;presentationOnly; on 10.102.1.151 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.6.7. Beta_Meetme_UCAPPSSE_2746.pkCOMPLETE      FAIL                          2018-09-09 18:58:40 2018-09-09 19:13:49 
+
+            Passed : 0  ( 0  % )
+            Failed : 1  ( 100  % )
+           Not Run : 0  ( 0  % )
+             Total : 1
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.7.1. UCAPPSSE_2746_TC4(1)      COMPLETE      FAIL      2018-09-09 18:58:40 2018-09-09 18:58:40 2018-09-09 19:01:42 
+Error: Test case failure
+Info : java.lang.Exception: ACM30_JoinScopiaConferenceFromWebPortal;namedUser;;;;audioVideoPresentation; on 10.102.1.151 is Fail
+----------------------------------------------------------------------------------------------------------------------
+2.6.8. Beta_Meetme_UCAPPSSE_2842.pkCOMPLETE      FAIL                          2018-09-09 19:01:42 2018-09-09 19:13:49 
+
+            Passed : 1  ( 50  % )
+            Failed : 1  ( 50  % )
+           Not Run : 0  ( 0  % )
+             Total : 2
+
+Member Execution Report:
+
+Name                               State         Result    Reserve             Start               Complete            
+----------------------------------------------------------------------------------------------------------------------
+2.6.8.1. UCAPPSSE_2842_TC2(1)      COMPLETE      FAIL      2018-09-09 19:01:42 2018-09-09 19:01:42 2018-09-09 19:08:39 
+Error: Test case failure
+Info : java.lang.Exception: ACW30_VerifyReceivedVideoResolution;1280x720 on 10.128.224.51 is Fail
+2.6.8.2. UCAPPSSE_2842_TC3(2)      COMPLETE      PASS      2018-09-09 19:08:40 2018-09-09 19:08:39 2018-09-09 19:13:49 
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
