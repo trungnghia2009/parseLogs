@@ -1,4 +1,4 @@
-install python 3.7
+install python 3.6, 3.7
 
 https://xlsxwriter.readthedocs.io/contents.html -->excel python
 
