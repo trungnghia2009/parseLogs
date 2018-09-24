@@ -20,7 +20,7 @@ def createTextResult(fileName):
                 resultFile.write(newLine2)
             else:
                 resultFile.write(line)
-
+    resultFile.write("Done..............")
     sourceFile.close()
     resultFile.close()
 
